@@ -1,13 +1,12 @@
 
-
 import { Box, Heading, Button} from '@chakra-ui/react';
 
 export default function Home() {
     
     return (
-        <Box>
+        <Box p='4'>
             <Heading> Home</Heading>
-            <Button> Click Me</Button>
+            <Button colorScheme='blue'> Click Me</Button>
         </Box>
     );
 
